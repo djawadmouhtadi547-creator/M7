@@ -3,7 +3,8 @@ const fs = require('fs');
 const path = require('path');
 const logger = require('./logger');
 
-const DIR = path.join(__dirname, '..', '..', 'data');
+// على الاستضافات: ضع DATA_DIR على مجلد دائم (Volume) كي لا تضيع البيانات عند إعادة التشغيل
+const DIR = process.env.DATA_DIR ? path.resolve(process.env.DATA_DIR) : path.join(__dirname, '..', '..', 'data');
 const FILE = path.join(DIR, 'db.json');
 
 const defaults = () => ({ guilds: {}, warns: {}, tickets: {}, counters: {}, maintenance: {} });

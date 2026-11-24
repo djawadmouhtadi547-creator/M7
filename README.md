@@ -44,3 +44,62 @@ Developer Portal: فعّل **Server Members Intent** و **Message Content Intent
 
 ## أزرار لوحة التحكم
 🔧 صيانة • 📢 إعلان (نافذة عنوان + نص) • 📊 الحالة • 💾 نسخة احتياطية • 🔄 تحديث
+
+
+---
+
+# 🚀 الرفع على GitHub والاستضافة
+
+## 1) الرفع على GitHub
+```bash
+git init
+git add .
+git commit -m "M 7 Builder bot"
+git branch -M main
+git remote add origin https://github.com/USERNAME/m7-builder.git
+git push -u origin main
+```
+- ملف `.env` و `data/` و `backups/` **مُستثناة** تلقائياً في `.gitignore`. لا تضع التوكن في الكود أبداً.
+- إذا ظهر التوكن بالخطأ في GitHub: اذهب للـ Developer Portal واضغط **Reset Token** فوراً.
+- يوجد Workflow جاهز (`.github/workflows/ci.yml`) يفحص المشروع تلقائياً عند كل Push (`npm run check`).
+
+## 2) المتغيرات (Environment Variables) في الاستضافة
+| المتغير | ملاحظات |
+|---|---|
+| `DISCORD_TOKEN` | **مطلوب** |
+| `CLIENT_ID` | **مطلوب** |
+| `GUILD_ID` | اختياري (تسجيل فوري للأوامر) |
+| `DATA_DIR` | مسار مجلد **دائم** (مثلاً `/data`) لحفظ التحذيرات والتذاكر والصيانة والنسخ الاحتياطية |
+| `PORT` | تضعه الاستضافة؛ يفتح Health-check بسيط |
+
+> ⚠️ بدون مجلد دائم (`DATA_DIR` على Volume) ستضيع البيانات عند كل إعادة نشر في الاستضافات التي تمسح الملفات.
+
+## 3) طرق الاستضافة
+**أ) استضافة بوتات / لوحة Pterodactyl (مثل bot-hosting وأشباهها):** ارفع الملفات (أو اربط الريبو)، ملف البدء `src/index.js`، الأمر `npm install && npm start`، وضع المتغيرات من لوحة Environment/Startup.
+
+**ب) Railway / Koyeb / Render:** New Project ← Deploy from GitHub ← اختر الريبو.
+- يكتشف `Dockerfile` تلقائياً (أو Start Command: `npm start`).
+- أضف المتغيرات، وأضف **Volume** مربوطاً بـ `/data` مع `DATA_DIR=/data`.
+- على Render استخدم نوع **Background Worker** (أو Web Service مع `PORT`).
+
+**ج) VPS (Ubuntu) مع pm2:**
+```bash
+git clone https://github.com/USERNAME/m7-builder.git && cd m7-builder
+npm ci --omit=dev
+cp .env.example .env && nano .env
+npm i -g pm2
+pm2 start ecosystem.config.js && pm2 save && pm2 startup
+# تحديث لاحقاً:  git pull && npm ci --omit=dev && pm2 restart m7-bot
+```
+
+**د) Docker:**
+```bash
+docker build -t m7-builder .
+docker run -d --name m7 --restart unless-stopped --env-file .env -v m7data:/data m7-builder
+```
+
+## 4) أوامر مفيدة
+```bash
+npm run check    # فحص المشروع بدون توكن
+npm run deploy   # تسجيل الأوامر يدوياً
+```

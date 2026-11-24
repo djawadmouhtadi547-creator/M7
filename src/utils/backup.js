@@ -33,7 +33,8 @@ function toAttachment(guild) {
 function saveToDisk(guild) {
   const { attachment, json, stamp } = toAttachment(guild);
   try {
-    const dir = path.join(__dirname, '..', '..', 'backups');
+    const base = process.env.DATA_DIR ? path.resolve(process.env.DATA_DIR) : path.join(__dirname, '..', '..');
+    const dir = path.join(base, 'backups');
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, `${guild.id}-${stamp}.json`), json);
   } catch { /* تجاهل */ }

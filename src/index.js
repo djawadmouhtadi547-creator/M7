@@ -29,6 +29,16 @@ loadCommands(client);
 loadComponents(client);
 loadEvents(client);
 
+// Health-check اختياري: بعض الاستضافات (Render/Koyeb/Fly) تطلب منفذاً مفتوحاً
+if (process.env.PORT) {
+  require('http')
+    .createServer((req, res) => {
+      res.writeHead(client.isReady() ? 200 : 503, { 'Content-Type': 'text/plain' });
+      res.end(client.isReady() ? 'M7 OK' : 'starting');
+    })
+    .listen(process.env.PORT, () => logger.info(`Health server على المنفذ ${process.env.PORT}`));
+}
+
 client.login(process.env.DISCORD_TOKEN).catch((e) => {
   logger.error('فشل تسجيل الدخول، تحقق من التوكن:', e);
   process.exit(1);
