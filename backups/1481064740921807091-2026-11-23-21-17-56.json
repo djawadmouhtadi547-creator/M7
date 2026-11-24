@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "server": {
+    "id": "1481064740921807091",
+    "name": "𝐌𝟕 • 𝐙𝐀𝐂𝐊 ⚡"
+  },
+  "createdAt": "2026-11-23T21:17:56.980Z",
+  "roles": [
+    {
+      "id": "1481081884455866614",
+      "name": "👑 M7 Sovereign",
+      "color": 10027025,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 11,
+      "permissions": "8864262743130111"
+    },
+    {
+      "id": "1481083362881048606",
+      "name": "⚜️ M7 High Command",
+      "color": 13938487,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 10,
+      "permissions": "8864262743130111"
+    },
+    {
+      "id": "1481083566216581181",
+      "name": "🛡️ M7 Director",
+      "color": 12950311,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 9,
+      "permissions": "8864262743130111"
+    },
+    {
+      "id": "1481091965876437044",
+      "name": "⚔️ M7 Admin",
+      "color": 11674146,
+      "hoist": true,
+      "mentionable": false,
+      "managed": false,
+      "position": 8,
+      "permissions": "2253174259886146"
+    },
+    {
+      "id": "1571810984585330728",
+      "name": "🤝 M7 Friends",
+      "color": 15057240,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 7,
+      "permissions": "0"
+    },
+    {
+      "id": "1495268626519818262",
+      "name": "Nova",
+      "color": 0,
+      "hoist": true,
+      "mentionable": true,
+      "managed": true,
+      "position": 6,
+      "permissions": "2080374975"
+    },
+    {
+      "id": "1573008523602829384",
+      "name": "DISBOARD.org",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "managed": true,
+      "position": 5,
+      "permissions": "19473"
+    },
+    {
+      "id": "1574055608812966080",
+      "name": "Wicks",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "managed": true,
+      "position": 4,
+      "permissions": "2080374975"
+    },
+    {
+      "id": "1574117473266045050",
+      "name": "Clover",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "managed": true,
+      "position": 3,
+      "permissions": "397821865024"
+    },
+    {
+      "id": "1574117589666496616",
+      "name": "Vetox",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "managed": true,
+      "position": 2,
+      "permissions": "8"
+    },
+    {
+      "id": "1574369617516699743",
+      "name": "ProBot ✨",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "managed": true,
+      "position": 1,
+      "permissions": "2080374975"
+    }
+  ],
+  "channels": [
+    {
+      "id": "1574534266308661258",
+      "name": "فف",
+      "type": 0,
+      "parentId": null,
+      "topic": null,
+      "userLimit": null,
+      "overwrites": []
+    }
+  ]
+}

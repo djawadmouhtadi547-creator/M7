@@ -1,0 +1,761 @@
+{
+  "version": 1,
+  "server": {
+    "id": "1481064740921807091",
+    "name": "𝐌𝟕 • 𝐙𝐀𝐂𝐊 ⚡"
+  },
+  "createdAt": "2026-11-23T21:15:31.575Z",
+  "roles": [
+    {
+      "id": "1481081884455866614",
+      "name": "👑 M7 Sovereign",
+      "color": 10027025,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 20,
+      "permissions": "8864262743130111"
+    },
+    {
+      "id": "1481083362881048606",
+      "name": "⚜️ M7 High Command",
+      "color": 13938487,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 19,
+      "permissions": "8864262743130111"
+    },
+    {
+      "id": "1481083566216581181",
+      "name": "🛡️ M7 Director",
+      "color": 12950311,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 18,
+      "permissions": "8864262743130111"
+    },
+    {
+      "id": "1481091965876437044",
+      "name": "⚔️ M7 Admin",
+      "color": 11674146,
+      "hoist": true,
+      "mentionable": false,
+      "managed": false,
+      "position": 17,
+      "permissions": "2253174259886146"
+    },
+    {
+      "id": "1563978781083836547",
+      "name": "🔹 M7 Moderator",
+      "color": 11121858,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 16,
+      "permissions": "0"
+    },
+    {
+      "id": "1481092316876902562",
+      "name": "🛠️ M7 Technician",
+      "color": 8029850,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 15,
+      "permissions": "180480"
+    },
+    {
+      "id": "1564289977422979164",
+      "name": "🤖 M7 Bots",
+      "color": 6055805,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 14,
+      "permissions": "8864262743130111"
+    },
+    {
+      "id": "1571810984585330728",
+      "name": "🤝 M7 Friends",
+      "color": 15057240,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 13,
+      "permissions": "0"
+    },
+    {
+      "id": "1481092492328964096",
+      "name": "💎 M7 Elite",
+      "color": 16766720,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 12,
+      "permissions": "180480"
+    },
+    {
+      "id": "1481092675741417642",
+      "name": "🌟 M7 VIP",
+      "color": 15120384,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 11,
+      "permissions": "180480"
+    },
+    {
+      "id": "1563978133462581328",
+      "name": "🎤 M7 Host",
+      "color": 13126449,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 10,
+      "permissions": "0"
+    },
+    {
+      "id": "1563979350959849694",
+      "name": "🔥 M7 Veteran",
+      "color": 9315364,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 9,
+      "permissions": "0"
+    },
+    {
+      "id": "1481093933948866590",
+      "name": "🖤 M7 Member",
+      "color": 4869720,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 8,
+      "permissions": "274878172224"
+    },
+    {
+      "id": "1481092849574350950",
+      "name": "🌑 M7 Shadow",
+      "color": 2829617,
+      "hoist": true,
+      "mentionable": true,
+      "managed": false,
+      "position": 7,
+      "permissions": "274881317888"
+    },
+    {
+      "id": "1495268626519818262",
+      "name": "Nova",
+      "color": 0,
+      "hoist": true,
+      "mentionable": true,
+      "managed": true,
+      "position": 6,
+      "permissions": "2080374975"
+    },
+    {
+      "id": "1573008523602829384",
+      "name": "DISBOARD.org",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "managed": true,
+      "position": 5,
+      "permissions": "19473"
+    },
+    {
+      "id": "1574055608812966080",
+      "name": "Wicks",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "managed": true,
+      "position": 4,
+      "permissions": "2080374975"
+    },
+    {
+      "id": "1574117473266045050",
+      "name": "Clover",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "managed": true,
+      "position": 3,
+      "permissions": "397821865024"
+    },
+    {
+      "id": "1574117589666496616",
+      "name": "Vetox",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "managed": true,
+      "position": 2,
+      "permissions": "8"
+    },
+    {
+      "id": "1574369617516699743",
+      "name": "ProBot ✨",
+      "color": 0,
+      "hoist": false,
+      "mentionable": false,
+      "managed": true,
+      "position": 1,
+      "permissions": "2080374975"
+    }
+  ],
+  "channels": [
+    {
+      "id": "1574126801872093326",
+      "name": "⚙️・صيانة",
+      "type": 5,
+      "parentId": null,
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1574389397762342982",
+      "name": "🔊・m7-throne",
+      "type": 2,
+      "parentId": "1574389342305128520",
+      "topic": null,
+      "userLimit": 0,
+      "overwrites": [
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574388663276539934",
+      "name": "📜・rules",
+      "type": 0,
+      "parentId": "1574388584494932018",
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1050624"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574389589840232518",
+      "name": "🔊・shadow-lounge-2",
+      "type": 2,
+      "parentId": "1574389342305128520",
+      "topic": null,
+      "userLimit": 0,
+      "overwrites": [
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574388751944126557",
+      "name": "🛠️・maintenance",
+      "type": 5,
+      "parentId": "1574388584494932018",
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1574389681158754334",
+      "name": "🔊・shadow-lounge-1",
+      "type": 2,
+      "parentId": "1574389342305128520",
+      "topic": null,
+      "userLimit": 0,
+      "overwrites": [
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574388820089114654",
+      "name": "🎉・events-giveaways",
+      "type": 0,
+      "parentId": "1574388584494932018",
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1051648"
+        },
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574389738389897276",
+      "name": "🔊・gaming--stage",
+      "type": 2,
+      "parentId": "1574389342305128520",
+      "topic": null,
+      "userLimit": 0,
+      "overwrites": [
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574389142794797136",
+      "name": "💡・suggestions",
+      "type": 15,
+      "parentId": "1574388968131264543",
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574389012704010310",
+      "name": "💬・chat",
+      "type": 0,
+      "parentId": "1574388968131264543",
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574389054026547230",
+      "name": "📸・media",
+      "type": 0,
+      "parentId": "1574388968131264543",
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574389098930638920",
+      "name": "🤖・bots",
+      "type": 0,
+      "parentId": "1574388968131264543",
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574389260914528388",
+      "name": "🎫・support-ticket",
+      "type": 0,
+      "parentId": "1574395379418538104",
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1051648"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574527278266847362",
+      "name": "logs",
+      "type": 0,
+      "parentId": "1574395379418538104",
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1574527755444420698",
+      "name": "『』welcome",
+      "type": 0,
+      "parentId": "1574388968131264543",
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574388584494932018",
+      "name": "👑 M7 SANCTUARY",
+      "type": 4,
+      "parentId": null,
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1048576"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574388968131264543",
+      "name": "💬 GENERAL",
+      "type": 4,
+      "parentId": null,
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574389342305128520",
+      "name": "🎙️ VOICE CHANNELS",
+      "type": 4,
+      "parentId": null,
+      "topic": null,
+      "userLimit": null,
+      "overwrites": [
+        {
+          "id": "1563978781083836547",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481064740921807091",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1481091965876437044",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1481092316876902562",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1574395379418538104",
+      "name": "Tickets",
+      "type": 4,
+      "parentId": null,
+      "topic": null,
+      "userLimit": null,
+      "overwrites": []
+    }
+  ]
+}

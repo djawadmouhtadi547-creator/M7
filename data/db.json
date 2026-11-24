@@ -1,0 +1,30 @@
+{
+  "guilds": {
+    "1481064740921807091": {
+      "welcomeEnabled": true,
+      "welcomeChannel": "1574534545888518224",
+      "leaveChannel": "1574534553345855498",
+      "logChannel": "1574534593233682489",
+      "memberRole": "1574534529857757294",
+      "rulesRole": "1574534528280559836",
+      "ticketCategory": "1574534567073943552",
+      "ticketLogChannel": "1574534596312301750",
+      "techRole": "1574534523251859627",
+      "complaintRole": "1574534512417841193",
+      "adminRole": "1574534509993398367",
+      "announceChannel": "1574534548748767383",
+      "controlChannel": "1574534599470481418",
+      "staffRoles": [
+        "1574534506776367204",
+        "1574534509993398367",
+        "1574534512417841193"
+      ]
+    }
+  },
+  "warns": {},
+  "tickets": {},
+  "counters": {
+    "ticket:1481064740921807091": 3
+  },
+  "maintenance": {}
+}
